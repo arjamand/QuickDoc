@@ -2,29 +2,6 @@
 
 This project provides a set of tools for audio transcription to create presciptions in matter of seconds using Whisper ASR, with a focus on integration with document editing workflows. It features a user-friendly interface built with `customtkinter` and includes functionality for recording audio, transcribing it, and embedding the transcriptions into a document template.
 
-## Project Structure
-```
-├── .gitattributes
-├── README.md
-├── app-v2.py
-├── app-v3.py
-├── app-v4.py
-├── app.py
-├── main.cpp
-├── requirements.txt
-├── template.png
-├── template_doc.docx
-├── transcription_20241213_174322.txt
-├── v2.py
-├── v3.py
-├── v4.py
-├── v6-german.py
-├── whisper-asr-v5.py
-├── whisper_asr.ipynb
-├── whisper_asr.py
-└── whisper_continuous_with_filter.py
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -54,11 +31,7 @@ This project provides a set of tools for audio transcription to create prescipti
 To run the application, execute the following command in the project root folder:
 
 ```bash
-python app-v4.py
-```
-or
-```bash
-python app-v2.py
+python app.py
 ```
 
 ## Usage
@@ -69,17 +42,10 @@ python app-v2.py
 5. **Print/Save Document**: Use the "Print Document" or "Save Document" buttons to manage the final document.
 6. **Adjust UI**: Use the "Appearance Mode" and "UI Scaling" dropdowns to customize the user interface.
 
-## Notes
-
-- Make sure to select a valid microphone in the dropdown before starting to record.
-- The application utilizes a base Whisper model. Other model sizes can be loaded by modifying the `whisper.load_model()` argument.
--  `app-v4.py` loads an image for better UI experience. The default `template.png` file or an updated image can be provided to the application.
-- The `main.cpp` provides a way to test pybind11 with whisper module.
-
 ## Contributing
 
 Feel free to contribute to the project by submitting issues, or pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
