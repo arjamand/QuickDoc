@@ -1,7 +1,7 @@
 # QuickDoc
 
 This project provides a set of tools for audio transcription to create presciptions in matter of seconds using Whisper ASR, with a focus on integration with document editing workflows. It features a user-friendly interface built with `customtkinter` and includes functionality for recording audio, transcribing it, and embedding the transcriptions into a document template.
-![image](https://github.com/user-attachments/assets/7c4cc471-d939-40c8-ae0e-bad1f9053f21)
+![image](https://github.com/user-attachments/assets/93409105-3e22-4a4b-b76c-9e8ba98a8366)
 
 ### Prerequisites
 
